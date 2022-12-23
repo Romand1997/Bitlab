@@ -1,3 +1,5 @@
+import Test_folder.Gnome;
+
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
@@ -21,5 +23,8 @@ public class Main {
         }
         sr=sum/(count-1);
         System.out.println(sr+" ");
+
+        Gnome gnome1 = new Gnome();
+        Gnome gnome2 = new Gnome("Roma", 25);
     }
 }
